@@ -10,7 +10,7 @@ INSERT INTO department (id, name) VALUES (10, 'HR');
 INSERT INTO role (title, salary, departmentID) VALUES ("Lead Engineer", 150000, 1);
 INSERT INTO role (title, salary, departmentID) VALUES ("Engineer", 113000, 1);
 
-INSERT INTO role (title, salary, departmentID) VALUES ("Sales Mgr.", 128000, 2);
+INSERT INTO role (title, salary, departmentID) VALUES ("Sales Manager.", 128000, 2);
 INSERT INTO role (title, salary, departmentID) VALUES ("Online Sales Representative", 90000, 2);
 INSERT INTO role (title, salary, departmentID) VALUES ("Print Sales Representative", 95000, 2);
 
