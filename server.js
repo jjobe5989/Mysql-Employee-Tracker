@@ -10,3 +10,16 @@ const connection = mysql.createConnection({
   password: "7464533672907kJ?",
   database: "employees_db"
 });
+
+connection.connect(function(err) {
+    if (err) throw err;
+   
+    console.log("Connected as ID " + connection.threadId);
+    console.clear();
+    console.log ("======================================");
+    console.log ("");
+    console.log ("   WELCOME TO THE EMPLOYEE DATABASE   ");
+    console.log ("");
+    console.log ("======================================");
+    runEmployeeDB();
+  });
