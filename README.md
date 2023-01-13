@@ -19,7 +19,7 @@ This application is used for creating a database that stores employee informatio
 <h1>Video link to Walkthrough</h1>
 
 
-
+- Video link: https://youtu.be/MtVYofCI0bY
 
 
 
